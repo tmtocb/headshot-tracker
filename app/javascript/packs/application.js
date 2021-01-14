@@ -13,9 +13,9 @@ import 'bootstrap/dist/css/bootstrap'
 require("stylesheets/application.scss") 
 
 document.addEventListener("turbolinks:load", ()=>{
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-    $('[data-toggle="popover"]').popover()
-  })
+    $(function () {
+        $("[data-toggle=tooltip]").tooltip();
+        $("[data-toggle=popover]").popover();
+    })
 })
 
